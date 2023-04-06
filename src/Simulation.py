@@ -77,4 +77,6 @@ class Menu(object):
 if __name__ == "__main__":
     screen = inits.screen()
     pygame.display.set_caption("STONKERS")
-    Menu(screen).main()
+    instance = Menu(screen).main()
+    if instance == "exit":
+        break
