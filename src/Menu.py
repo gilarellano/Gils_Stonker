@@ -27,7 +27,7 @@ class Menu(object):
         
         # Music BG
         pygame.mixer.music.load("./assets/sounds/bg_music.ogg")
-        #pygame.mixer.music.play(-1, 0.0)    
+        pygame.mixer.music.play(-1, 0.0)    
         
         # Sound Effects
         self.hover_sound = pygame.mixer.Sound("./assets/sounds/hover.ogg")
